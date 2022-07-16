@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\allesklar09\\Unreal Projects\\MyTestProjects\\MySandbox\\Source\\MySandbox\\MySandbox.Build.cs",
+		"C:\\Users\\allesklar09\\Unreal Projects\\MyTestProjects\\MySandbox\\Source\\MySandbox.Target.cs",
+		"C:\\Users\\allesklar09\\Unreal Projects\\MyTestProjects\\MySandbox\\Source\\MySandboxEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

@@ -1,0 +1,2 @@
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\Definitions.MySandbox.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Source\MySandbox\MySandbox.h

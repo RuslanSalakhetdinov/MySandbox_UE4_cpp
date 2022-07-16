@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MySandbox.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E161E0FB-464A-4057-8DE3-D3F7BEFB761E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MySandbox.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MySandboxEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FE1468AF-DEC7-44C9-983B-261A50F64BB9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MySandbox">
+      <UniqueIdentifier>{AF5C7CE4-C697-407B-9DB7-8DCFD96111EB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MySandbox\MySandbox.Build.cs">
+      <Filter>Source\MySandbox</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MySandbox\MySandbox.cpp">
+      <Filter>Source\MySandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MySandbox\MySandbox.h">
+      <Filter>Source\MySandbox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MySandbox\MySandboxGameModeBase.cpp">
+      <Filter>Source\MySandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MySandbox\MySandboxGameModeBase.h">
+      <Filter>Source\MySandbox</Filter>
+    </ClInclude>
+    <Filter Include="Source\MySandbox\Private">
+      <UniqueIdentifier>{6682B0E5-60D8-483E-88CE-8A632DEE26B9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MySandbox\Private\BaseGeometryActor.cpp">
+      <Filter>Source\MySandbox\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MySandbox\Public">
+      <UniqueIdentifier>{2244FF7E-A94C-4352-B397-7D384AF08E92}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MySandbox\Public\BaseGeometryActor.h">
+      <Filter>Source\MySandbox\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

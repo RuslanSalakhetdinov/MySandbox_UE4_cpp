@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MySandbox",
+			"Path": "C:\\Users\\allesklar09\\Unreal Projects\\MyTestProjects\\MySandbox\\Source\\MySandbox.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MySandboxEditor",
+			"Path": "C:\\Users\\allesklar09\\Unreal Projects\\MyTestProjects\\MySandbox\\Source\\MySandboxEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

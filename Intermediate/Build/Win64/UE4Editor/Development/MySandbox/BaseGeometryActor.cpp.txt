@@ -1,0 +1,3 @@
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\Definitions.MySandbox.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Source\MySandbox\Public\BaseGeometryActor.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Inc\MySandbox\BaseGeometryActor.generated.h
