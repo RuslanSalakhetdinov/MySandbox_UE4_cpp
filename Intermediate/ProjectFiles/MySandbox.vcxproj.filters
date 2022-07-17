@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MySandbox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{41350CEE-31F1-43C4-B910-6D881ED270C6}</UniqueIdentifier>
+      <UniqueIdentifier>{A77A4ED8-FA7A-4EB7-8832-5645EE8D7639}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{16783923-0C94-4BEA-8359-2D87E176C875}</UniqueIdentifier>
+      <UniqueIdentifier>{2194AE7F-5B87-4249-97E6-DC9562B35ACA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -26,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MySandbox">
-      <UniqueIdentifier>{90006918-36CE-4FC8-B732-8F58DDEB9B1B}</UniqueIdentifier>
+      <UniqueIdentifier>{76804BB2-8995-400E-BBDF-F9866D21521F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox\MySandbox.Build.cs">
       <Filter>Source\MySandbox</Filter>
@@ -44,15 +44,21 @@
       <Filter>Source\MySandbox</Filter>
     </ClInclude>
     <Filter Include="Source\MySandbox\Private">
-      <UniqueIdentifier>{D41EBA75-2B11-42AA-B78E-CD2E48B76F4C}</UniqueIdentifier>
+      <UniqueIdentifier>{53FEB8E4-DE74-4B05-A8FE-4E68084942D1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MySandbox\Private\BaseGeometryActor.cpp">
       <Filter>Source\MySandbox\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MySandbox\Private\GeometryHubActor.cpp">
+      <Filter>Source\MySandbox\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MySandbox\Public">
-      <UniqueIdentifier>{E9608013-5B1A-4F0E-BE05-E49504E4DC28}</UniqueIdentifier>
+      <UniqueIdentifier>{7321166D-D9BE-4E79-A891-B8B0C91A36E8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MySandbox\Public\BaseGeometryActor.h">
+      <Filter>Source\MySandbox\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MySandbox\Public\GeometryHubActor.h">
       <Filter>Source\MySandbox\Public</Filter>
     </ClInclude>
   </ItemGroup>
