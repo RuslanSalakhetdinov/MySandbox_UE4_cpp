@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MySandbox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E161E0FB-464A-4057-8DE3-D3F7BEFB761E}</UniqueIdentifier>
+      <UniqueIdentifier>{41350CEE-31F1-43C4-B910-6D881ED270C6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\MySandboxEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FE1468AF-DEC7-44C9-983B-261A50F64BB9}</UniqueIdentifier>
+      <UniqueIdentifier>{16783923-0C94-4BEA-8359-2D87E176C875}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MySandbox">
-      <UniqueIdentifier>{AF5C7CE4-C697-407B-9DB7-8DCFD96111EB}</UniqueIdentifier>
+      <UniqueIdentifier>{90006918-36CE-4FC8-B732-8F58DDEB9B1B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox\MySandbox.Build.cs">
       <Filter>Source\MySandbox</Filter>
@@ -42,13 +44,13 @@
       <Filter>Source\MySandbox</Filter>
     </ClInclude>
     <Filter Include="Source\MySandbox\Private">
-      <UniqueIdentifier>{6682B0E5-60D8-483E-88CE-8A632DEE26B9}</UniqueIdentifier>
+      <UniqueIdentifier>{D41EBA75-2B11-42AA-B78E-CD2E48B76F4C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MySandbox\Private\BaseGeometryActor.cpp">
       <Filter>Source\MySandbox\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MySandbox\Public">
-      <UniqueIdentifier>{2244FF7E-A94C-4352-B397-7D384AF08E92}</UniqueIdentifier>
+      <UniqueIdentifier>{E9608013-5B1A-4F0E-BE05-E49504E4DC28}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MySandbox\Public\BaseGeometryActor.h">
       <Filter>Source\MySandbox\Public</Filter>

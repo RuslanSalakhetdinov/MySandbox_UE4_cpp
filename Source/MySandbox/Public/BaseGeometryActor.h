@@ -7,6 +7,31 @@
 #include "Components/StaticMeshComponent.h"
 #include "BaseGeometryActor.generated.h"
 
+UENUM(BlueprintType)
+enum class EMovementType : uint8
+{
+	Sin,
+	Static
+};
+
+USTRUCT(BlueprintType)
+struct FGeometryData
+{
+	GENERATED_USTRUCT_BODY();
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float			Amplitude = 50.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float			Frequency = 2.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	EMovementType	MoveType = EMovementType::Static;
+
+	UPROPERTY(EditAnywhere, Category = "Design")
+	FLinearColor		Color = FLinearColor::Black;
+};
+
 UCLASS()
 class MYSANDBOX_API ABaseGeometryActor : public AActor
 {
@@ -17,17 +42,14 @@ public:
 	ABaseGeometryActor();
 
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* BaseMesh;
+	UStaticMeshComponent*	BaseMesh;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float	Amplitude = 50.0f;
-
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float	Frequency = 2.0f;
+	UPROPERTY(EditAnywhere, Category = "My Geometry Data")
+	FGeometryData	GeometryData;
 
 	UPROPERTY(EditAnywhere, Category = "Weapon")
 	int32	WeaponsNum = 4;
@@ -51,7 +73,9 @@ public:
 private:
 	FVector	InitialLocation;
 
-	void		printTypes();
-	void		printStringTypes();
-	void		printTransform();
+	void		HandleMovement();
+	void		PrintTypes();
+	void		PrintStringTypes();
+	void		PrintTransform();
+	void		SetColor(const FLinearColor& Color);
 };

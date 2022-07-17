@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeMySandbox_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF1B4F9AE,
-				0x5A4973A6,
+				0xF83D3FB1,
+				0xBE85A4D5,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
