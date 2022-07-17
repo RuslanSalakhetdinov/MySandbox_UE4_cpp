@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMySandbox_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF83D3FB1,
+				0x3E907EFE,
 				0xBE85A4D5,
 				METADATA_PARAMS(nullptr, 0)
 			};
