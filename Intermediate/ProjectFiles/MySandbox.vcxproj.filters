@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\MySandbox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C1431D97-DA0B-4AC7-98F3-5D91A28C854C}</UniqueIdentifier>
+      <UniqueIdentifier>{02E863FE-CD93-4D5A-9550-F47D95F2AA08}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{77F58040-7E74-402C-9D60-C49C19DA5AE4}</UniqueIdentifier>
+      <UniqueIdentifier>{F525952A-75BD-4CE0-862A-8AC172059297}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -26,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MySandbox">
-      <UniqueIdentifier>{2393F6E4-47CF-4ADD-AFBC-4CBAA9E4E590}</UniqueIdentifier>
+      <UniqueIdentifier>{B06FDCF2-4801-4C68-8FA7-E864AAB97D0F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox\MySandbox.Build.cs">
       <Filter>Source\MySandbox</Filter>
@@ -44,7 +44,7 @@
       <Filter>Source\MySandbox</Filter>
     </ClInclude>
     <Filter Include="Source\MySandbox\Private">
-      <UniqueIdentifier>{A4A53638-7DD6-445F-BF2C-5175B516A9C1}</UniqueIdentifier>
+      <UniqueIdentifier>{A6187ADB-5C22-4317-9018-8FD08F91BC5B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MySandbox\Private\BaseGeometryActor.cpp">
       <Filter>Source\MySandbox\Private</Filter>
@@ -52,13 +52,19 @@
     <ClCompile Include="..\..\Source\MySandbox\Private\GeometryHubActor.cpp">
       <Filter>Source\MySandbox\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MySandbox\Private\SandboxPawn.cpp">
+      <Filter>Source\MySandbox\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MySandbox\Public">
-      <UniqueIdentifier>{06884501-B13A-4F35-B7E3-DA3B528E2D5C}</UniqueIdentifier>
+      <UniqueIdentifier>{0BC00984-8BF3-437E-8AC4-A1AF0C0CE052}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MySandbox\Public\BaseGeometryActor.h">
       <Filter>Source\MySandbox\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MySandbox\Public\GeometryHubActor.h">
+      <Filter>Source\MySandbox\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MySandbox\Public\SandboxPawn.h">
       <Filter>Source\MySandbox\Public</Filter>
     </ClInclude>
   </ItemGroup>

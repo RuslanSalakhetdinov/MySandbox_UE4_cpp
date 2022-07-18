@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeMySandboxGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMySandboxGameModeBase, 2374684468);
+	IMPLEMENT_CLASS(AMySandboxGameModeBase, 4125713763);
 	template<> MYSANDBOX_API UClass* StaticClass<AMySandboxGameModeBase>()
 	{
 		return AMySandboxGameModeBase::StaticClass();

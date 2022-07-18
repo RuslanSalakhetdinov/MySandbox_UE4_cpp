@@ -43,7 +43,7 @@ static struct FScriptStruct_MySandbox_StaticRegisterNativesFGeometryPayload
 {
 	FScriptStruct_MySandbox_StaticRegisterNativesFGeometryPayload()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("GeometryPayload")),new UScriptStruct::TCppStructOps<FGeometryPayload>);
+		UScriptStruct::DeferCppStructOps<FGeometryPayload>(FName(TEXT("GeometryPayload")));
 	}
 } ScriptStruct_MySandbox_StaticRegisterNativesFGeometryPayload;
 	struct Z_Construct_UScriptStruct_FGeometryPayload_Statics
@@ -287,7 +287,7 @@ static struct FScriptStruct_MySandbox_StaticRegisterNativesFGeometryPayload
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGeometryHubActor, 4183668127);
+	IMPLEMENT_CLASS(AGeometryHubActor, 3927562254);
 	template<> MYSANDBOX_API UClass* StaticClass<AGeometryHubActor>()
 	{
 		return AGeometryHubActor::StaticClass();

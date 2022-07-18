@@ -55,7 +55,7 @@ public: \
 	NO_API AGeometryHubActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGeometryHubActor) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AGeometryHubActor); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGeometryHubActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGeometryHubActor); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGeometryHubActor(AGeometryHubActor&&); \
@@ -70,7 +70,7 @@ private: \
 	NO_API AGeometryHubActor(const AGeometryHubActor&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AGeometryHubActor); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGeometryHubActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGeometryHubActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGeometryHubActor)
 
 

@@ -148,7 +148,7 @@ static struct FScriptStruct_MySandbox_StaticRegisterNativesFGeometryData
 {
 	FScriptStruct_MySandbox_StaticRegisterNativesFGeometryData()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("GeometryData")),new UScriptStruct::TCppStructOps<FGeometryData>);
+		UScriptStruct::DeferCppStructOps<FGeometryData>(FName(TEXT("GeometryData")));
 	}
 } ScriptStruct_MySandbox_StaticRegisterNativesFGeometryData;
 	struct Z_Construct_UScriptStruct_FGeometryData_Statics
@@ -474,7 +474,7 @@ static struct FScriptStruct_MySandbox_StaticRegisterNativesFGeometryData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseGeometryActor, 3257443493);
+	IMPLEMENT_CLASS(ABaseGeometryActor, 2687005641);
 	template<> MYSANDBOX_API UClass* StaticClass<ABaseGeometryActor>()
 	{
 		return ABaseGeometryActor::StaticClass();
