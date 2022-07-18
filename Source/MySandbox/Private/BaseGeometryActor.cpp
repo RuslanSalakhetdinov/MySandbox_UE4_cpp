@@ -35,6 +35,12 @@ void ABaseGeometryActor::BeginPlay()
 	GetWorldTimerManager().SetTimer(TimerHandle, this, &ABaseGeometryActor::OnTimerFired, GeometryData.TimerRate, true);
 }
 
+void ABaseGeometryActor::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	UE_LOG(LogTemp, Error, TEXT("Actor is dead %s"), *GetName());
+	Super::EndPlay(EndPlayReason);
+}
+
 // Called every frame
 void ABaseGeometryActor::Tick(float DeltaTime)
 {
@@ -127,11 +133,25 @@ void ABaseGeometryActor::OnTimerFired()
 		const FLinearColor	NewColor = FLinearColor::MakeRandomColor();
 		UE_LOG(LogBaseGeometry, Display, TEXT("TimerCount: %i, Color to set up: %s"), TimerCount, *NewColor.ToString());
 		SetColor(NewColor);
+		OnColorChanged.Broadcast(NewColor, GetName());
 	}
 	else
 	{
 		UE_LOG(LogBaseGeometry, Warning, TEXT("Timer has been stopped!"));
 		GetWorldTimerManager().ClearTimer(TimerHandle);
+		OnTimerFinished.Broadcast(this);
 	}
 }
 
+FString FGeometryData::ToString() const
+{
+	FString	AmpStr = "Amplitude = " + FString::SanitizeFloat(Amplitude);
+	FString	FrqStr = "Frequency = " + FString::SanitizeFloat(Frequency);
+	FString	MoveTypeStr = "Movement type = " + FString(MoveType == EMovementType::Sin ? "Sin" : "Static");
+	FString ColorStr = "Color = " + Color.ToString();
+	FString	TimerStr = "TimerRate = " + FString::SanitizeFloat(TimerRate);
+
+	FString	Stat = FString::Printf(TEXT(" \n == All Stat == \n %s \n %s \n %s \n %s \n %s"), *AmpStr, *FrqStr, *MoveTypeStr, *ColorStr, *TimerStr);
+	
+	return FString::Printf(TEXT("%s"), *Stat);
+}

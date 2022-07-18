@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MySandbox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A77A4ED8-FA7A-4EB7-8832-5645EE8D7639}</UniqueIdentifier>
+      <UniqueIdentifier>{C1431D97-DA0B-4AC7-98F3-5D91A28C854C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{2194AE7F-5B87-4249-97E6-DC9562B35ACA}</UniqueIdentifier>
+      <UniqueIdentifier>{77F58040-7E74-402C-9D60-C49C19DA5AE4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -26,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MySandbox">
-      <UniqueIdentifier>{76804BB2-8995-400E-BBDF-F9866D21521F}</UniqueIdentifier>
+      <UniqueIdentifier>{2393F6E4-47CF-4ADD-AFBC-4CBAA9E4E590}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox\MySandbox.Build.cs">
       <Filter>Source\MySandbox</Filter>
@@ -44,7 +44,7 @@
       <Filter>Source\MySandbox</Filter>
     </ClInclude>
     <Filter Include="Source\MySandbox\Private">
-      <UniqueIdentifier>{53FEB8E4-DE74-4B05-A8FE-4E68084942D1}</UniqueIdentifier>
+      <UniqueIdentifier>{A4A53638-7DD6-445F-BF2C-5175B516A9C1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MySandbox\Private\BaseGeometryActor.cpp">
       <Filter>Source\MySandbox\Private</Filter>
@@ -53,7 +53,7 @@
       <Filter>Source\MySandbox\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MySandbox\Public">
-      <UniqueIdentifier>{7321166D-D9BE-4E79-A891-B8B0C91A36E8}</UniqueIdentifier>
+      <UniqueIdentifier>{06884501-B13A-4F35-B7E3-DA3B528E2D5C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MySandbox\Public\BaseGeometryActor.h">
       <Filter>Source\MySandbox\Public</Filter>
