@@ -76,7 +76,8 @@ public: \
 
 #define MySandbox_Source_MySandbox_Public_GeometryHubActor_h_28_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__GeometryClass() { return STRUCT_OFFSET(AGeometryHubActor, GeometryClass); } \
-	FORCEINLINE static uint32 __PPO__GeometryPayloads() { return STRUCT_OFFSET(AGeometryHubActor, GeometryPayloads); }
+	FORCEINLINE static uint32 __PPO__GeometryPayloads() { return STRUCT_OFFSET(AGeometryHubActor, GeometryPayloads); } \
+	FORCEINLINE static uint32 __PPO__PropertyActor() { return STRUCT_OFFSET(AGeometryHubActor, PropertyActor); }
 
 
 #define MySandbox_Source_MySandbox_Public_GeometryHubActor_h_25_PROLOG

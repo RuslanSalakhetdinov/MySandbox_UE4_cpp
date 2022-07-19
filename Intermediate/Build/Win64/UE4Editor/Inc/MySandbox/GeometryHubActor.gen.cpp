@@ -221,6 +221,10 @@ static struct FScriptStruct_MySandbox_StaticRegisterNativesFGeometryPayload
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GeometryPayloads_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_GeometryPayloads;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PropertyActor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PropertyActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -255,10 +259,17 @@ static struct FScriptStruct_MySandbox_StaticRegisterNativesFGeometryPayload
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_GeometryPayloads = { "GeometryPayloads", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGeometryHubActor, GeometryPayloads), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_GeometryPayloads_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_GeometryPayloads_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_PropertyActor_MetaData[] = {
+		{ "ModuleRelativePath", "Public/GeometryHubActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_PropertyActor = { "PropertyActor", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGeometryHubActor, PropertyActor), Z_Construct_UClass_ABaseGeometryActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_PropertyActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_PropertyActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGeometryHubActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_GeometryClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_GeometryPayloads_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_GeometryPayloads,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGeometryHubActor_Statics::NewProp_PropertyActor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGeometryHubActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGeometryHubActor>::IsAbstract,
@@ -287,7 +298,7 @@ static struct FScriptStruct_MySandbox_StaticRegisterNativesFGeometryPayload
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGeometryHubActor, 3927562254);
+	IMPLEMENT_CLASS(AGeometryHubActor, 1129952765);
 	template<> MYSANDBOX_API UClass* StaticClass<AGeometryHubActor>()
 	{
 		return AGeometryHubActor::StaticClass();

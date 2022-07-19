@@ -60,13 +60,13 @@ void ASandboxPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void ASandboxPawn::MoveForward(float Amount)
 {
-	//UE_LOG(LogSandboxPawn, Display, TEXT("Move Forward: %f"), Amount);
+	// UE_LOG(LogSandboxPawn, Display, TEXT("Move Forward: %f"), Amount);
 	VelocityVector.X = Amount;
 }
 
 void ASandboxPawn::MoveRight(float Amount)
 {
-	//UE_LOG(LogSandboxPawn, Display, TEXT("Move Right: %f"), Amount);
+	// UE_LOG(LogSandboxPawn, Display, TEXT("Move Right: %f"), Amount);
 	VelocityVector.Y = Amount;
 }
 

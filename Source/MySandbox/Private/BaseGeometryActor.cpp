@@ -26,9 +26,9 @@ void ABaseGeometryActor::BeginPlay()
 
 	InitialLocation = GetActorLocation();
 
-	//PrintTransform();
-	//PrintStringTypes();
-	//PrintTypes();
+	// PrintTransform();
+	// PrintStringTypes();
+	// PrintTypes();
 
 	SetColor(GeometryData.Color);
 
