@@ -1,3 +1,5 @@
 C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\Definitions.MySandbox.h
 C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Source\MySandbox\Public\SandboxPawn.h
 C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Inc\MySandbox\SandboxPawn.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h

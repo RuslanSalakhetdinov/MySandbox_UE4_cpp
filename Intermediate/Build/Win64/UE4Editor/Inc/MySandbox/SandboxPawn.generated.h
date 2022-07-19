@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYSANDBOX_SandboxPawn_generated_h
 
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_SPARSE_DATA
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_RPC_WRAPPERS
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_INCLASS_NO_PURE_DECLS \
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_SPARSE_DATA
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_RPC_WRAPPERS
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASandboxPawn(); \
 	friend struct Z_Construct_UClass_ASandboxPawn_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ASandboxPawn)
 
 
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_INCLASS \
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesASandboxPawn(); \
 	friend struct Z_Construct_UClass_ASandboxPawn_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ASandboxPawn)
 
 
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_STANDARD_CONSTRUCTORS \
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASandboxPawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASandboxPawn) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_ENHANCED_CONSTRUCTORS \
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASandboxPawn(ASandboxPawn&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASandboxPawn)
 
 
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_PRIVATE_PROPERTY_OFFSET
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_9_PROLOG
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_GENERATED_BODY_LEGACY \
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_PRIVATE_PROPERTY_OFFSET
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_11_PROLOG
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_PRIVATE_PROPERTY_OFFSET \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_SPARSE_DATA \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_RPC_WRAPPERS \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_INCLASS \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_STANDARD_CONSTRUCTORS \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_PRIVATE_PROPERTY_OFFSET \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_SPARSE_DATA \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_RPC_WRAPPERS \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_INCLASS \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_GENERATED_BODY \
+#define MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_PRIVATE_PROPERTY_OFFSET \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_SPARSE_DATA \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_INCLASS_NO_PURE_DECLS \
-	MySandbox_Source_MySandbox_Public_SandboxPawn_h_12_ENHANCED_CONSTRUCTORS \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_PRIVATE_PROPERTY_OFFSET \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_SPARSE_DATA \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_INCLASS_NO_PURE_DECLS \
+	MySandbox_Source_MySandbox_Public_SandboxPawn_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -1,0 +1,14 @@
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\Definitions.MySandbox.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Source\MySandbox\Public\SandboxPlayerController.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Inc\MySandbox\SandboxPlayerController.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Source\MySandbox\Public\SandboxPawn.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Inc\MySandbox\SandboxPawn.generated.h

@@ -7,3 +7,5 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Inc\MySandbox\MySandboxGameModeBase.generated.h
 C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Source\MySandbox\Public\SandboxPawn.h
 C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Inc\MySandbox\SandboxPawn.generated.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Source\MySandbox\Public\SandboxPlayerController.h
+C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Inc\MySandbox\SandboxPlayerController.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MySandbox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{02E863FE-CD93-4D5A-9550-F47D95F2AA08}</UniqueIdentifier>
+      <UniqueIdentifier>{5F5BDA9C-D92B-463E-A14E-95B6156B5D3F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F525952A-75BD-4CE0-862A-8AC172059297}</UniqueIdentifier>
+      <UniqueIdentifier>{6B3BEBED-6F36-4310-BB54-B815CE2001F2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -25,8 +25,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\MySandbox">
-      <UniqueIdentifier>{B06FDCF2-4801-4C68-8FA7-E864AAB97D0F}</UniqueIdentifier>
+      <UniqueIdentifier>{C8952C12-9122-42E2-86B4-6CD67F81FBEE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MySandbox\MySandbox.Build.cs">
       <Filter>Source\MySandbox</Filter>
@@ -44,7 +47,7 @@
       <Filter>Source\MySandbox</Filter>
     </ClInclude>
     <Filter Include="Source\MySandbox\Private">
-      <UniqueIdentifier>{A6187ADB-5C22-4317-9018-8FD08F91BC5B}</UniqueIdentifier>
+      <UniqueIdentifier>{A8107E7A-744C-43C5-8A2B-ED45071A43F1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MySandbox\Private\BaseGeometryActor.cpp">
       <Filter>Source\MySandbox\Private</Filter>
@@ -55,8 +58,11 @@
     <ClCompile Include="..\..\Source\MySandbox\Private\SandboxPawn.cpp">
       <Filter>Source\MySandbox\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MySandbox\Private\SandboxPlayerController.cpp">
+      <Filter>Source\MySandbox\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MySandbox\Public">
-      <UniqueIdentifier>{0BC00984-8BF3-437E-8AC4-A1AF0C0CE052}</UniqueIdentifier>
+      <UniqueIdentifier>{01CFA45D-ED92-44C5-98BE-D87AE3437D26}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MySandbox\Public\BaseGeometryActor.h">
       <Filter>Source\MySandbox\Public</Filter>
@@ -65,6 +71,9 @@
       <Filter>Source\MySandbox\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MySandbox\Public\SandboxPawn.h">
+      <Filter>Source\MySandbox\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MySandbox\Public\SandboxPlayerController.h">
       <Filter>Source\MySandbox\Public</Filter>
     </ClInclude>
   </ItemGroup>

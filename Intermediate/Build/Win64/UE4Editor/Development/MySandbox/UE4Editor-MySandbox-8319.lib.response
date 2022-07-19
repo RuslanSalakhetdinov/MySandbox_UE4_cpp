@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MySandbox-8319.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\MySandboxEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\BaseGeometryActor.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\GeometryHubActor.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\SandboxPawn.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\SandboxPlayerController.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\MySandbox.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\MySandboxGameModeBase.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\BaseGeometryActor.gen.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\GeometryHubActor.gen.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\MySandbox.init.gen.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\MySandboxGameModeBase.gen.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\SandboxPawn.gen.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\SandboxPlayerController.gen.cpp.obj"
+"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\Default.rc2.res"
+/OUT:"C:\Users\allesklar09\Unreal Projects\MyTestProjects\MySandbox\Intermediate\Build\Win64\UE4Editor\Development\MySandbox\UE4Editor-MySandbox-8319.lib"
